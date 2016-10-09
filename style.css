@@ -1,0 +1,62 @@
+/* Global */
+
+html {
+	font-family: BlinkMacSystemFont;
+	font-size: 14px;
+}
+
+/* Body */
+
+img {
+	display: block;
+	margin: 0 auto;
+	height: 92px;
+	padding-top: 5%;
+}
+
+form {
+	margin: 0 30%;
+	display: inline-block;
+}
+
+form p {
+	min-width: 500px;
+}
+
+textarea {
+	margin: 0 auto;
+}
+
+/* Header */
+
+nav span {
+	display: block;
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+}
+
+/* Footer */
+
+footer {
+	background-color: lightgrey;
+}
+
+footer span.left {
+	float: left;
+}
+
+footer span.right {
+	float: right;
+}
+
+footer ul {
+	display: inline;
+}
+
+footer li {
+	display: inline;
+}
+
