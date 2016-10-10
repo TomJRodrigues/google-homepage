@@ -23,8 +23,32 @@ form p {
 	min-width: 500px;
 }
 
+form div span {
+	display: inline-block;
+	min-width: 80px;
+}
+
 textarea {
 	margin: 0 auto;
+}
+
+form div span button {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #737373;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	border-color: #f2f2f2;
+	border-radius: 2px;
+	padding: 6px 18px;
+	margin-left: 5px;
+	box-shadow: ;
+}
+
+form div span button:hover {
+	border-color: #8c8c8c;
+	border-width: 1px;
+	color: #333333;
 }
 
 /* Header */
@@ -41,15 +65,33 @@ nav ul li {
 /* Footer */
 
 footer {
-	background-color: lightgrey;
+	background-color: #f2f2f2;
+	min-height: 35px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #666666;
 }
 
-footer span.left {
+footer div.left {
 	float: left;
+	background-color: #f2f2f2;
+	padding-top: 7px;
 }
 
-footer span.right {
+footer div.left ul li:hover {
+	text-decoration: underline;
+}
+
+footer div.right {
 	float: right;
+	background-color: #f2f2f2;
+	padding-top: 7px;
+}
+
+footer div.right ul li:hover {
+	text-decoration: underline;
 }
 
 footer ul {
